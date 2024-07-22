@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="wipe"
+        app:title="Wipe data"
+        app:summary="Clear all notes"/>
+
+    <Preference
+        app:key="about"
+        app:title="About"
+        app:summary="Information about program"/>
+
+    <Preference
+        app:key="autoStart"
+        app:title="Protected apps"
+        app:summary="Put this app in protected apps for correct notifications work"/>
+
+    <Preference
+        app:key="createBackup"
+        app:title="Export lists"
+        app:summary="Export data"/>
+
+    <Preference
+        app:key="getBackup"
+        app:title="Import lists"
+        app:summary="Import data from file"/>
+
+</PreferenceScreen>

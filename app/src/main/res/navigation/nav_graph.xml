@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.simpleNotes.simplenotelist.screens.notesFragment.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_notesFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_noteDescriptionFragment"
+            app:destination="@id/noteDescriptionFragment" />
+        <action
+            android:id="@+id/action_notes_fragment_to_settings_fragment"
+            app:destination="@id/nav_bar_item_settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_bar_item_settings"
+        android:name="com.simpleNotes.simplenotelist.screens.settingsFragment.SettingsFragment"
+        android:label="fragment_settings" >
+        <action
+            android:id="@+id/action_settings_fragment_to_notes_fragment"
+            app:destination="@id/notesFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.simpleNotes.simplenotelist.screens.addNoteFragment.AddNoteFragment"
+        android:label="fragment_add_note"
+        tools:layout="@layout/fragment_add_note" >
+        <action
+            android:id="@+id/action_addNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteDescriptionFragment"
+        android:name="com.simpleNotes.simplenotelist.screens.descriptionFragment.NoteDescriptionFragment"
+        android:label="NoteDescriptionFragment" >
+        <action
+            android:id="@+id/action_noteDescriptionFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.simpleNotes.simplenotelist.screens.tasksFragment.TasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_tasksFragment_to_settingsFragment"
+            app:destination="@id/nav_bar_item_settings" />
+        <action
+            android:id="@+id/action_tasksFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_tasksFragment_to_taskDescriptionFragment"
+            app:destination="@id/taskDescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.simpleNotes.simplenotelist.screens.addTaskFragment.AddTaskFragment"
+        android:label="fragment_add_task"
+        tools:layout="@layout/fragment_add_task" >
+        <action
+            android:id="@+id/action_addTaskFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskDescriptionFragment"
+        android:name="com.simpleNotes.simplenotelist.screens.TaskDescriptionFragment.TaskDescriptionFragment"
+        android:label="fragment_task_description"
+        tools:layout="@layout/fragment_task_description" >
+        <action
+            android:id="@+id/action_taskDescriptionFragment_to_tasksFragment"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+</navigation>

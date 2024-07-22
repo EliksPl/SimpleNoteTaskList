@@ -1,0 +1,40 @@
+<resources>
+    <!--Elements texts-->
+    <string name="rv_task_item_default_title">Title</string>
+    <string name="rv_task_item_default_desc">Description</string>
+    <string name="addNote_et_title_hint">Title</string>
+    <string name="addNote_et_note_hint">Enter text</string>
+    <string name="addTask_et_title_hint">Enter task</string>
+    <string name="addTask_et_task_hint">Description</string>
+    <string name="addTask_btn_text">ADD</string>
+    <string name="editTask_btn_text">SAVE</string>
+    <string name="addTask_btn_reminder">set reminder</string>
+    <string name="timePicker_dialogue_title">Select date</string>
+    <string name="date_time_picker_dialog_select_button">Select</string>
+    <string name="date_time_picker_dialog_cancel_button">Cancel</string>
+    <string name="rv_date_picker_default_text">Today</string>
+    <string name="activity_on_alarm_title">Alarm</string>
+    <string name="delete_selected_items_request_title">Delete</string>
+    <string name="delete_selected_items_request">Delete selected items?</string>
+    <string name="default_positive_button_text">Yes</string>
+    <string name="default_negative_button_text">No</string>
+    <string-array name="task_priorities">
+        <item>No priority</item>
+        <item>Low priority</item>
+        <item>Medium priority</item>
+        <item>High priority</item>
+    </string-array>
+    <string name="addTask_done_btn_text">Done</string>
+    <string name="addTask_cancel_btn_text">Cancel</string>
+    <!--Names of screens-->
+    <string name="app_name">SimpleNoteList</string>
+    <string name="notesFragment_title">Notes</string>
+    <string name="tasksFragment_title">Tasks</string>
+    <string name="settingsFragment_title">Settings</string>
+    <string name="popup_menu_item_settings">Settings</string>
+    <string name="popup_menu_item_contactUs">Contact Us</string>
+    <string name="nav_bar_item_notes">Notes</string>
+    <string name="nav_bar_item_tasks">Tasks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

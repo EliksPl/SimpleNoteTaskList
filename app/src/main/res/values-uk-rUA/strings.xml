@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rv_task_item_default_title">Заголовок</string>
+    <string name="rv_task_item_default_desc">Опис</string>
+    <string name="addNote_et_title_hint">Заголовок</string>
+    <string name="addNote_et_note_hint">Введіть текст</string>
+    <string name="addTask_et_title_hint">Введіть текст</string>
+    <string name="addTask_et_task_hint">Опис</string>
+    <string name="addTask_btn_text">Додати</string>
+    <string name="editTask_btn_text">Зберегти</string>
+    <string name="addTask_btn_reminder">Календар</string>
+    <string name="timePicker_dialogue_title">Оберіть дату</string>
+    <string name="date_time_picker_dialog_select_button">Обрати</string>
+    <string name="date_time_picker_dialog_cancel_button">Скасувати</string>
+    <string name="rv_date_picker_default_text">Сьогодні</string>
+    <string name="activity_on_alarm_title">Нагадування!</string>
+    <string name="delete_selected_items_request_title">Видалити</string>
+    <string name="delete_selected_items_request">Видалити обрані елементи?</string>
+    <string name="default_positive_button_text">Так</string>
+    <string name="default_negative_button_text">Ні</string>
+    <string-array name="task_priorities">
+        <item>Нема пріорітету</item>
+        <item>Низький пріорітет</item>
+        <item>Середній пріорітет</item>
+        <item>Високий пріорітет</item>
+    </string-array>
+    <string name="addTask_done_btn_text">Готово</string>
+    <string name="addTask_cancel_btn_text">Скасувати</string>
+    <!--Names of screens-->
+    <string name="app_name">Блокнот</string>
+    <string name="notesFragment_title">Нотатки</string>
+    <string name="tasksFragment_title">Нагадування</string>
+    <string name="settingsFragment_title">Налаштування</string>
+    <string name="popup_menu_item_settings">Налаштування</string>
+    <string name="popup_menu_item_contactUs">Контакти</string>
+    <string name="nav_bar_item_notes">Нотатник</string>
+    <string name="nav_bar_item_tasks">Нагадування</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Пустий фрагмент</string>
+</resources>

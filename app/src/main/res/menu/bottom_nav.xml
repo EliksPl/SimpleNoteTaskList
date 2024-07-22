@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/notesFragment_title"
+        android:id="@+id/notesFragment"
+        android:icon="@drawable/ic_navigation_note_list"/>
+    <item android:title="@string/nav_bar_item_tasks"
+        android:id="@+id/tasksFragment"
+        android:icon="@drawable/ic_navigation_tasks"/>
+</menu>
